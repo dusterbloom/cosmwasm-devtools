@@ -30,5 +30,17 @@
     "microDenom": "ujunox",
     "coinDecimals": "6",
     "gasPrice": "0.025"
-  }
+  },
+  {
+  "wasm-testnet": {
+    "chainName": "Malaga",
+    "chainId": "malaga-420",
+    "rpcEndpoint": "https://rpc.malaga-420.cosmwasm.com/",
+    "restEndpoint": "https://lcd-juno.itastakers.com/",
+    "faucetEndpoint": "https://faucet.malaga-420.cosmwasm.com/",
+    "addressPrefix": "wasm",
+    "microDenom": "umlg",
+    "coinDecimals": "6",
+    "gasPrice": "0.05"
+  },
 }
