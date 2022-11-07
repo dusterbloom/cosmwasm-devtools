@@ -31,16 +31,26 @@
     "coinDecimals": "6",
     "gasPrice": "0.025"
   },
-  {
   "wasm-testnet": {
-    "chainName": "Malaga",
-    "chainId": "malaga-420",
-    "rpcEndpoint": "https://rpc.malaga-420.cosmwasm.com/",
-    "restEndpoint": "https://lcd-juno.itastakers.com/",
-    "faucetEndpoint": "https://faucet.malaga-420.cosmwasm.com/",
+    "chainName": "Ibiza",
+    "chainId": "ibiza-808",
+    "rpcEndpoint": "https://rpc.ibiza-808.cosmwasm.com/",
+    "restEndpoint": "https://api.ibiza-808.cosmwasm.com",
+    "faucetEndpoint": "https://faucet.ibiza-808.cosmwasm.com/",
     "addressPrefix": "wasm",
-    "microDenom": "umlg",
+    "microDenom": "ubeat",
     "coinDecimals": "6",
     "gasPrice": "0.05"
   },
+  "local-test": {
+    "chainName": "Local Test",
+    "chainId": "testing",
+    "rpcEndpoint": "http://localhost:26657",
+    "restEndpoint": "http://localhost:1317",
+    "faucetEndpoint": "http://localhost:8000",
+    "addressPrefix": "wasm",
+    "microDenom": "ucosmos",
+    "coinDecimals": "6",
+    "gasPrice": "0.025"
+  }
 }
